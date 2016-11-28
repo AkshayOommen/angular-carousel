@@ -1,0 +1,5 @@
+## yaxy configuration file
+## defines where stuff is loaded from
+
+localhost:8081 => file:////Users/akshay_oommen/Desktop/CAROUSEL/sample-project-A
+
