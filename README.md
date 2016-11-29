@@ -14,3 +14,21 @@ Steps to setup
 9. Done? Great. Run the command 'yaxy' in the same path where your yaxy-config.txt is present.
 10. Finally, run Chrome through Terminal on a Mac (/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --proxy-server=localhost:8558) or Command Prompt on Windows (google-chrome --proxy-server="localhost:8558") to hit the proxy server.
 11. Hit the url 'http://localhost:8081/app/#/carousel-view'
+
+Project file details
+----------------
+
+1. The project runs primarily on angularJS.
+2. The scripts folder consists of the following files -> app.js (for routing) , CarouselViewComponents.js (which consists of a filter, a directive and a controller. I'd usually use different files for each of them, but kept them in one to make things simple), videoList.json (which has the mock data) and carousel-template.html (the template my directive uses).
+3. The styles folder consists of a single css file
+4. The views folder consists of a single view
+5. The index.html servers as my shell page where my partial will be loaded in
+6. bower.json to help install all the JS libraries
+7. yaxy-config.txt to provide the project directory to access at the provided url.
+
+Additional details
+------------------
+
+1. No server for data saving/fetching used by this project owing to time constraints. History feature is demonstrated however. :)
+2. The carousel features keyboard shortcut support (when focused) and you can move through the carousel using the left and right keys. On selecting a video, you can press 'Enter' to begin playing the video.
+3. Further keyboard shortcuts are provided once the video popup opens.
