@@ -20,8 +20,20 @@
 .overlay {
     height: 200px;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 150px;
     width: 50%;
+}
+
+.pointer-type {
+    cursor: pointer;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
 }
 
 .content {
@@ -51,7 +63,6 @@
 .video-item {
     display: inline-block;
     padding: 5px 0px 5px 5px;
-    cursor: pointer;
 }
 
 .video-item img {
@@ -76,10 +87,42 @@
 button {
     margin: auto;
     display: inherit;
+    padding: 15px;
 }
 
-video {
+#video-player {
     margin: auto;
     display: block;
     width: 100%
+}
+
+#video-controls {
+    background-color: lightgray;
+    height: 35px;
+    color: black;
+}
+
+#video-controls .player-btn {
+    padding: 1px 15px;
+}
+
+#video-controls .progress-bar {
+    width: 60%;
+    float: left;
+    height: 35px;
+}
+
+@media screen and (max-width: 500px) {
+    #video-controls .player-btn {
+        padding: 1px 5px;
+        font-size: 1em;
+    }
+
+    #video-controls {
+        height: 20px;
+    }
+
+    #video-controls .progress-bar {
+        height: 20px;
+    }
 }
