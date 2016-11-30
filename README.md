@@ -11,8 +11,9 @@ Steps to setup
 6. Done? Great. Now open up command prompt (or Terminal if you're using a Mac) and set current working directory to sample-project-A
 7. Once your current working directory is set, run 'bower install' to install all the JS library dependancies of the project.
 8. Then, open up yaxy-config.txt and provide the project directory path that needs to be accessed at the mentioned url 'in this case, localhost:8081' (More info on yaxy: https://github.com/Kolyaj/Yaxy)
-9. Done? Great. Run the command 'yaxy' in the same path where your yaxy-config.txt is present.
-10. Finally, run Chrome through Terminal on a Mac (/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --proxy-server=localhost:8558) or Command Prompt on Windows (google-chrome --proxy-server="localhost:8558") to hit the proxy server.
+9. Done? Great. Run the command 'yaxy' in the same path where your yaxy-config.txt is present. The server is now listening on port 8558 by default.
+10. Finally, run Chrome with a proxy server through Terminal on a Mac (/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --proxy-server=localhost:8558).
+11. If you're using a Windows machine, open Chrome. Click on Settings -> Show Advanced Settings -> Network -> Change proxy Settings. Click on 'LAN Settings', check the 'Use a proxy server' checkbox and provide address as 'localhost' and port as '8558'. Save this.
 11. Hit the url 'http://localhost:8081/app/#/carousel-view'
 
 Project file details
