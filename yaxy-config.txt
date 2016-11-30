@@ -1,5 +1,11 @@
 ## yaxy configuration file
 ## defines where stuff is loaded from
 
-localhost:8081 => file:////Users/akshay_oommen/Desktop/CAROUSEL/sample-project-A
+## For a Mac, the path should look something like this
+## localhost:8081 => file:////Users/akshay_oommen/Desktop/CAROUSEL/sample-project-A
+
+## For a Windows machine, the path should look something like this
+## localhost:8081 => file://c:/Users/Akshay Oommen/Desktop/SAMPLE/sample-project-A
+
+localhost:8081 => <<PROVIDE STATIC FILE PATH HERE>>
 
